@@ -33,7 +33,7 @@ fun HomeScreen(newsViewModel: NewsViewModel = hiltViewModel()) {
         initialPage = 0,
         initialPageOffsetFraction = 0F
     ) {
-        100
+        50
     }
 
     VerticalPager(
